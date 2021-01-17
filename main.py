@@ -5,7 +5,7 @@ import cv2
 import time
 
 
-cap = cv2.VideoCapture('ball.mp4')# 43 frames
+cap = cv2.VideoCapture('green.mp4')# 43 frames
 print(cap.isOpened())
 if cap.isOpened():
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
